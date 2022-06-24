@@ -7,12 +7,12 @@ ________________________________________________
         console.log(output||number)                     // then the console takes the "output" and prints either "fizz" or "buzz". and if "output" is still blank, it will just print the "number"
     }                                                                  
   ________________________________________________  
-  //if number isnt divisible by 3 or 5:
+     //if number isnt divisible by 3 or 5:
                                                 
- console.log(output||number)  = number (true on the right)
+    console.log(output||number)  = number (true on the right)
               false  true                                                                          
                         
-  //if number is divisible by 3 or 5
+    //if number is divisible by 3 or 5
 
- console.log(output||number) = output(true but on the left)
+    console.log(output||number) = output(true but on the left)
               true    true                                                                              
